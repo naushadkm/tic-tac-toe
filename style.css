@@ -1,0 +1,33 @@
+table,
+tr,
+td {
+    border: 1px solid #000;
+}
+td {
+    width: 80px;
+    height: 80px;
+    font-size: 55px;
+    text-align: center;
+}
+table {
+    width: 300px;
+    margin: 0 auto;
+}
+.container {
+    text-align: center;
+}
+
+input[type="button"] {
+    width: 100px; height: 30px;
+    margin-bottom: 20px;
+}
+.result {
+    padding-top: 30%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(139, 139, 139, 0.8);
+    display: none;
+    font-size: 75px;
+}
